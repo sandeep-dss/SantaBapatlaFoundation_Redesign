@@ -11,6 +11,7 @@
     position: absolute;
     right: 1rem;
 }
+html{scroll-behavior:smooth}
 
 #logo{
     max-width: 100px;
@@ -71,9 +72,12 @@ nav {
     .name{
         display: none;
     }
+	#logo{
+		max-width: 50px;
+	}
 	header nav {
 		position: fixed;
-		top: -100vh;
+		top: -100%;
 		left: 0;
 		height: 100%;
 		width: 100%;
